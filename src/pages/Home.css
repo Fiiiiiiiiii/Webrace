@@ -39,7 +39,8 @@ span {
 }
 
 #underMain{
-    margin-top: 300px;
+    display: flex;
+    top: 100px;
 }
 
 .nadpis {
