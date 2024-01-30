@@ -1,0 +1,133 @@
+/* Do 700px */
+nav {
+    background-color: #141414;
+    border-bottom: 2px solid white;
+}
+
+.navbarLogo{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/*až se schovájí ty ul li, tak až pak bude fungovat ten space-between*/
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px; /*až se to roztáhle to memu tak se roztáhne i tak ikona.*/
+}
+
+.nav-header button {
+    display: none;
+}
+
+.ucet{
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.ucet a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+/* /color pallete:
+        #0766AD - blue backround
+        #8EA7E9 - light blue
+        #E5E0FF - white
+        #FFF2F2 - yellowish white 
+    / */
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+.nav-list ul {
+    margin-right: 50px;
+}
+
+
+.nav-list li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+.nav-list a {
+    text-decoration: none;
+    color: #E5E0FF;
+    font-size: 20px;
+    
+}
+.nav-list a:hover {
+    color: #8EA7E9;
+}
+
+/* Od 700px a méně */
+@media (max-width: 700px){
+    .navigation {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start; /*dá to úplně na levo (flex-end = na pravo)*/
+    }
+
+    .ucet{
+        display: none;
+    }
+    .nav-header {
+        width: 100%;
+    }
+
+
+    .nav-header button {
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+
+    .hamburger-icon {
+        color: #e5e5e5;
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
+
+    .nav-list li {
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+
+    /* Classy pro použití v reactu */
+    .hide {
+        height: 0px;
+        overflow: hidden;
+        transition: all 0.1s linear;
+    }
+
+
+    .show {
+        height: 150px;
+        transition: all 0.1s linear;
+        overflow: hidden;
+        /* background-color: #141414;
+        width: 100%; */ /*není potřeba*/
+    }
+}

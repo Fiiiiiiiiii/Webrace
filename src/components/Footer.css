@@ -1,0 +1,12 @@
+.footerh1{
+    color: #E5E0FF;
+    margin-top: 100px;
+    
+}
+
+@media (max-width: 700px){
+    .footerh1{
+        margin-top: 50px;
+        font-size: medium;
+    }
+}

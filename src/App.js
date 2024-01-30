@@ -1,12 +1,26 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import SharedLayout from "./pages/SharedLayout"
+import Home from "./pages/Home"
+import Zajem from "./pages/Zajem"
+import Firmy from "./pages/Firmy"
+import Ucet from "./pages/Ucet"
 
 function App() {
   return (
-    <div className='container'>
-      <h1>React App</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda totam accusamus omnis doloremque, voluptatem unde nemo. Explicabo adipisci est ipsam rerum esse. Error quis beatae itaque dolorum ullam, maiores eum.</p>
-    </div>
-  );
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={ <SharedLayout />} >
+          <Route index element={ <Home /> } />
+          <Route path="zajem" element={ <Zajem /> } />
+          <Route path="pro-firmy" element={ <Firmy /> } />
+          <Route path="ucet" element={ <Ucet /> } />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+
+  )
 }
 
 export default App;
