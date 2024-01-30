@@ -4,7 +4,7 @@ import SharedLayout from "./pages/SharedLayout"
 import Home from "./pages/Home"
 import Zajem from "./pages/zajem"
 import Firmy from "./pages/pro-firmy"
-import Ucet from "./pages/ucet"
+import Ucet from "./pages/ucet.js"
 
 function App() {
   return (
