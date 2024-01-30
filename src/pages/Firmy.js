@@ -15,7 +15,7 @@ const Firmy = () => {
           </p>
         </article>
         
-        <article className='clanek'>
+        <article className='clanek' id='secondArt' >
           <h2>
             DTR - jednoduché a rychlé zprostředkování
           </h2>

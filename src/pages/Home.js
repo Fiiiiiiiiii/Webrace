@@ -59,16 +59,15 @@ const Home = () => {
                     Co je to DTR?
                 </h2>
                 <p className="text">
-                    DTR je webová stránka, která ti pomůže najít práci v IT. <br />
-                    Zde si můžeš vytvořit účet a následně si vybrat z mnoha nabídek práce. <br />
-                    Pokud jsi zaměstnavatel, tak si můžeš vytvořit účet a následně zde vytvořit inzerát na práci. <br />
-                    <br />
-                    <br />
+                    - DTR je webová stránka, která ti pomůže najít práci v IT. <br />
+                    - Zde si můžeš vytvořit účet a následně si vybrat z mnoha nabídek práce. <br />
+                    - Pokud jsi zaměstnavatel, tak si můžeš vytvořit účet a následně zde vytvořit inzerát na práci. <br />
                 </p>
-            </article>
+        </article>
 
-        <div className='ucet1'>
-        <div>
+        <div className='ucet2'>
+            <h1>Registrace</h1>
+
             <form onSubmit={handleSubmit}>
               <input
                 type="text"
@@ -88,7 +87,6 @@ const Home = () => {
             <button>Register</button>
             </form>
         </div>
-    </div>
         
     </div>
   }

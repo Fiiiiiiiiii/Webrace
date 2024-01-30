@@ -27,7 +27,12 @@ const Zajem = () => {
 
   return (
     <div className='zajem'>
-      <div>Zájem</div>
+      
+      <h1>
+        Máš zájem o naše služby?
+        <br />
+        Vyplň dotazník a pokud se zalíbíš firma se ti ozve
+      </h1>
       <div>
         <form onSubmit={handleSubmit}>
           <label>
