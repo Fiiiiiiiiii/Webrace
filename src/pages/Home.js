@@ -1,5 +1,7 @@
 import "./Home.css"
 import background from "../images/student1.jpg"
+import img1 from "../images/Prostredi.jpg"
+import img2 from "../images/rozvoj.jpg"
 
 const handleSubmit = async (e) => {
     e.preventDefault()
@@ -64,6 +66,17 @@ const Home = () => {
                     - Pokud jsi zaměstnavatel, tak si můžeš vytvořit účet a následně zde vytvořit inzerát na práci. <br />
                 </p>
         </article>
+
+        <div className="section">
+          <div className="section1">
+            <h1>Zažij s námi dobrodružství</h1>
+            <img src={img1} alt="" />
+          </div>
+          <div className="section2">
+            <img src={img2}  alt="" />
+            <h1>Rozbíjej svoje znalosti</h1>
+          </div>
+        </div>
 
         <div className='ucet2'>
             <h1>Registrace</h1>

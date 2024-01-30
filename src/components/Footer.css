@@ -1,7 +1,9 @@
 .footerh1{
     color: #E5E0FF;
-    margin-top: 100px;
-    
+    width: 100vw;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px  solid white;
 }
 
 @media (max-width: 700px){

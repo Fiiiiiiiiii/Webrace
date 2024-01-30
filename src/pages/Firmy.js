@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Firmy.css"
 
+
 const Firmy = () => {
   return (
     <div className='firmy'>
@@ -19,7 +20,6 @@ const Firmy = () => {
           <h2>
             DTR - jednoduché a rychlé zprostředkování
           </h2>
-          <br />
           <p>
             DTR nemá složitou instalaci, stačí se jen zaregistrovat a kandidát může začít. Po vyplnění formuláře se kandidát dostane do databáze, ve které se můžou procházet jeho výsledky a posoudit tak jeho možnost získání práce.
           </p>
