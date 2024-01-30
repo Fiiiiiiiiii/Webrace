@@ -1,5 +1,4 @@
 import "./Home.css"
-import logo from "../images/finalyLogo.png"
 import background from "../images/student1.jpg"
 
 const Home = () => {
@@ -14,7 +13,16 @@ const Home = () => {
             <h1 className="nadpis">
                 DTR
             </h1>
+            <p id="underMain">
+                <span>
+                    Nejčastější otázky:
+                </span>
+                <span>
+
+                </span>
+            </p>
         </div>
+        
     </div>
   }
   

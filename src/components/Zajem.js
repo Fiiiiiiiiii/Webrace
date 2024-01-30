@@ -7,7 +7,9 @@ const Zajem = () => {
   return (
     <div className='zajem'>
         <div>Zájem</div>
-       
+        <dir>
+            <form action=""></form>
+        </dir>
     </div>
     
   )
