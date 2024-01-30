@@ -1,7 +1,5 @@
 import React from 'react'
 import "./Firmy.css"
-//import images obr2
-import obr2 from "../images/obr2.jpg"
 
 const Firmy = () => {
   return (
