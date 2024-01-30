@@ -4,10 +4,8 @@
 }
 
 .clanek{
-    background-color: #E5E0FF;
-    border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    display: flex;
-
+    display: block;
+    height: ;
 }
