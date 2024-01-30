@@ -86,10 +86,11 @@ article p{
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+    gap: 100px;
 }
 .section1 img {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     margin-right: 40px;
     margin-left: 40px;
 }
@@ -98,10 +99,11 @@ article p{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 100px; 
 }
 .section2 img {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     margin-right: 40px;
     margin-left: 40px;
 }

@@ -33,7 +33,6 @@ const Zajem = () => {
         <br />
         Vyplň dotazník a pokud se zalíbíš firma se ti ozve
       </h1>
-      <div>
         <form onSubmit={handleSubmit}>
           <label>
             First Name:
@@ -70,7 +69,7 @@ const Zajem = () => {
 
           <button type="submit">Submit</button>
         </form>
-      </div>
+
     </div>
   );
 };

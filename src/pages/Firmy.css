@@ -1,12 +1,18 @@
 .firmy{
     height: 90vh;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .clanek{
     margin: 10px;
-    display: block;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #secondArt{

@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Firmy.css"
+//import images obr2
+import obr2 from "../images/obr2.jpg"
 
 const Firmy = () => {
   return (
@@ -12,6 +14,7 @@ const Firmy = () => {
             DTR je personální webová aplikace, která se zabývá výběrem a zprostředkováním vhodných kandidátů kterými jsou studenti pro Vaši firmu. 
             Využijte našich služeb a získejte kvalitní zaměstnance, kteří budou odpovídat Vašim požadavkům.
           </p>
+          {/* <img className="background" src={obr2} alt="" /> */}
         </article>
         <article className='clanek'>
           <h2>
