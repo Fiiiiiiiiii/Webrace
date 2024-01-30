@@ -13,6 +13,7 @@ const Home = () => {
             <h1 className="nadpis">
                 DTR
             </h1>
+            <br />
             <p id="underMain">
                 <span>
                     Nejčastější otázky:

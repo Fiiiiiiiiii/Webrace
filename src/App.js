@@ -13,9 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={ <SharedLayout />} >
           <Route index element={ <Home /> } />
-          <Route path="/zajem" element={ <Zajem /> } />
-          <Route path="/pro-firmy" element={ <Firmy /> } />
-          <Route path="/ucet" element={ <Ucet /> } />
+          <Route path="zajem" element={ <Zajem /> } />
+          <Route path="pro-firmy" element={ <Firmy /> } />
+          <Route path="ucet" element={ <Ucet /> } />
         </Route>
       </Routes>
     </BrowserRouter>
