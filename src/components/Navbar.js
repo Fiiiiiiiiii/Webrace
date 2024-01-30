@@ -17,7 +17,7 @@ const links = [
   },
   {
     id: 3,
-    url: "/Pro-firmy",
+    url: "/pro-firmy",
     text: "Pro firmy",
 },
 //   {
@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
 
         <div className='ucet'>
-            <a href="/Ucet">Ucet</a>
+            <a href="/ucet">Účet</a>
         </div>
     </div>
   </nav>

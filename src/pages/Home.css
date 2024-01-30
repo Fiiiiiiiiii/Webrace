@@ -13,11 +13,11 @@
         #FFF2F2 - yellowish white 
     / */
 }
-
 .background {
     width: 100vw;
     height: 90vh;
-    object-fit: cover;  
+    object-fit: cover; 
+    nochild: scale; 
 }
 
 .box{

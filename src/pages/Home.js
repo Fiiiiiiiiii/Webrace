@@ -53,8 +53,19 @@ const Home = () => {
                 DTR
             </h1>
             <br />
-            
         </div>
+        <article>
+                <h2 className="podnadpis">
+                    Co je to DTR?
+                </h2>
+                <p className="text">
+                    DTR je webová stránka, která ti pomůže najít práci v IT. <br />
+                    Zde si můžeš vytvořit účet a následně si vybrat z mnoha nabídek práce. <br />
+                    Pokud jsi zaměstnavatel, tak si můžeš vytvořit účet a následně zde vytvořit inzerát na práci. <br />
+                    <br />
+                    <br />
+                </p>
+            </article>
 
         <div className='ucet1'>
         <div>
@@ -74,7 +85,7 @@ const Home = () => {
                 placeholder="Heslo"
                 required
               />
-            <button>Login</button>
+            <button>Register</button>
             </form>
         </div>
     </div>

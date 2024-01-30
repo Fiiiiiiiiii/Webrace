@@ -2,9 +2,9 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import SharedLayout from "./pages/SharedLayout"
 import Home from "./pages/Home"
-import Zajem from "./pages/Zajem"
-import Firmy from "./pages/Firmy"
-import Ucet from "./pages/Ucet"
+import Zajem from "./pages/zajem"
+import Firmy from "./pages/pro-firmy"
+import Ucet from "./pages/ucet"
 
 function App() {
   return (
