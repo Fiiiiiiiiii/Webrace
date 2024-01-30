@@ -14,14 +14,7 @@ const Home = () => {
                 DTR
             </h1>
             <br />
-            <p id="underMain">
-                <span>
-                    Nejčastější otázky:
-                </span>
-                <span>
-
-                </span>
-            </p>
+            
         </div>
         
     </div>
